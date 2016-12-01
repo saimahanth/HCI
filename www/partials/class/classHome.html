@@ -1,0 +1,31 @@
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
+            <md-icon md-svg-icon="images/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+            <span> HOMEBUYER 101 </span>
+        </h2>
+    </div>
+</md-toolbar>
+<md-content>
+    <div layout="column" layout-align="center center">
+        <h3>Welcome To The Class!</h3>
+        <div><i>Please choose from options..</i></div>
+    </div>
+    <div class="container" layout="column" layout-align="center">
+        <md-input-container>
+            <label>Choose class type</label>
+            <md-select ng-model="classType">
+                <md-option ng-value="webinar">Webinar</md-option>
+                <md-option ng-value="seminar">Seminar</md-option>
+            </md-select>
+        </md-input-container>
+        <md-button class="md-raised md-primary" href="#/aid">Government Financial Aid</md-button>
+        <md-button class="md-raised md-primary" href="#/forum">Forum</md-button>
+
+    </div>
+</md-content>
+
+
+

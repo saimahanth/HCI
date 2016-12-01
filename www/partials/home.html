@@ -1,0 +1,73 @@
+﻿<!-- partial-home -->
+
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
+            <md-icon md-svg-icon="images/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+            <span> MONUM APP</span>
+        </h2>
+    </div>
+</md-toolbar>
+
+   
+<div>
+    <div class="container" layout="row" layout-align="center"><i>Click on Each Option to expand it..</i></div>
+    <md-button class="md-fab" data-toggle="collapse" data-target="#p1">
+        <h4>1</h4>
+    </md-button>
+    <md-button data-toggle="collapse" data-target="#p1"><b>FIND YOUR AFFORDABILITY</b></md-button>
+    <div id="p1" name="p1" class="collapse container">
+        <div class="container">
+            <md-checkbox ng-disabled="checkMe" ng-checked="checked"></md-checkbox>&nbsp;
+            <a href="#/credit">GET YOUR CREDIT SCORE</a> &nbsp;
+                    
+        </div>
+        <div class="container">
+            <md-checkbox ng-disabled="budgetcheckMe" ng-checked="budgetchecked" aria-label="Disabled checkbox"></md-checkbox>&nbsp;
+            <a href="#/budget">SET YOUR BUDGET</a> &nbsp;
+                    
+        </div>
+        <div class="container">
+            <md-checkbox ng-disabled="true" aria-label="Disabled checkbox" ng-model="cb3"></md-checkbox>&nbsp;
+            APPLY TO PRE-QUALIFY 
+                    
+        </div>
+    </div>
+
+</div>
+<div>
+    <md-button class="md-fab">
+        <h4>2</h4>
+    </md-button>
+    <b>HOUSE SEARCH</b>
+</div>
+<div>
+    <md-button class="md-fab">
+        <h4>3</h4>
+    </md-button>
+    <b>ASSEMBLE TEAM</b>
+</div>
+<div>
+    <md-button class="md-fab">
+        <h4>4</h4>
+    </md-button>
+    <b>MAKE AN OFFER</b>
+</div>
+<div>
+    <md-button class="md-fab">
+        <h4>5</h4>
+    </md-button>
+    <b>CLOSING</b>
+</div>
+        
+<div layout="row" layout-align="center">
+    <md-button class="md-raised md-primary" href="#/class">
+        HOMEBUYER 101 CLASS
+    </md-button>
+</div>
+
+
+
+

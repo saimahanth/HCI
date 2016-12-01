@@ -1,0 +1,59 @@
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
+            <md-icon md-svg-icon="images/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+            <span> HOMEBUYER 101 </span>
+        </h2>
+    </div>
+</md-toolbar>
+<md-content>
+    <div class="container" layout="column" layout-align="center">
+        <h3>Right To Know Your Benefits</h3>
+        <md-input-container>
+            <label>Are you a US Citizen?</label>
+            <md-select ng-model="citizen">
+                <md-option ng-value="yes">Yes</md-option>
+                <md-option ng-value="no">No</md-option>
+            </md-select>
+        </md-input-container>
+        
+        <md-input-container>
+            <label>What is Your Family Size?</label>
+            <md-select ng-model="familiySize">
+                <md-option ng-value="1">1</md-option>
+                <md-option ng-value="2">2</md-option>
+                <md-option ng-value="3">3</md-option>
+                <md-option ng-value="4">4</md-option>
+                <md-option ng-value="5+">5+</md-option>
+            </md-select>
+        </md-input-container>
+        
+        <md-input-container>
+            <label>What is Your Household Income/year?</label>
+            <md-select ng-model="income">
+                <md-option ng-value="50000-100000">50000-100000</md-option>
+                <md-option ng-value="100001-150000">100001-150000</md-option>
+                <md-option ng-value="150001-200000">150001-200000</md-option>
+                <md-option ng-value="4">150001-200000</md-option>
+                <md-option ng-value="200000 or more">200000 or more</md-option>
+            </md-select>
+        </md-input-container>
+        
+        <md-input-container>
+            <label>Which area are you looking to buy?</label>
+            <md-select ng-model="area">
+                <md-option ng-value="Brookline">Brookline</md-option>
+                <md-option ng-value="Dorchestor">Dorchestor</md-option>
+                <md-option ng-value="Roxbury">Roxbury</md-option>
+                <md-option ng-value="South Boston">South Boston</md-option>
+            </md-select>
+        </md-input-container>
+        
+        <md-button class="md-raised md-primary" href="#/class">Get My Eligibility</md-button>
+        
+    </div>
+</md-content>
+
+
