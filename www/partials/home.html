@@ -44,10 +44,24 @@
     <b>HOUSE SEARCH</b>
 </div>
 <div>
-    <md-button class="md-fab">
+    <md-button class="md-fab" data-toggle="collapse" data-target="#p3">
         <h4>3</h4>
     </md-button>
-    <b>ASSEMBLE TEAM</b>
+    <md-button data-toggle="collapse" data-target="#p3"><b>ASSEMBLE TEAM</b></md-button>
+    <div id="p3" name="p3" class="collapse container">
+        <div class="container">
+            <md-checkbox ng-disabled="bankerCheck" ng-checked="bankerChecked"></md-checkbox>&nbsp;
+            <a href="#/bankers">BANKERS</a> &nbsp;
+        </div>
+        <div class="container">
+            <md-checkbox ng-disabled="lawyerCheck" ng-checked="lawyerChecked" aria-label="Disabled checkbox"></md-checkbox>&nbsp;
+            <a href="#/layers">LAWYERS</a> &nbsp;
+        </div>
+        <div class="container">
+            <md-checkbox ng-disabled="realtorCheck" ng-checked="realtorChecked" aria-label="Disabled checkbox"></md-checkbox>&nbsp;
+            <a href="#/realtors">REALTORS</a> &nbsp;
+        </div>
+    </div>
 </div>
 <div>
     <md-button class="md-fab">

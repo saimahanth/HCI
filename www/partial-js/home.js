@@ -18,6 +18,21 @@
             $scope.budgetchecked = true;
 
         }
+        if ($rootScope.bankerDone == true) {
+            $scope.bankerCheck = false;
+            $scope.bankerChecked = true;
+
+        }
+        if ($rootScope.lawyerDone == true) {
+            $scope.lawyerCheck = false;
+            $scope.lawyerChecked = true;
+
+        }
+        if ($rootScope.realtorDone == true) {
+            $scope.realtorCheck = false;
+            $scope.realtorChecked = true;
+
+        }
     })
 
     function buildToggler(componentId) {

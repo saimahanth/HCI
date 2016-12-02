@@ -12,7 +12,7 @@
     $scope.done = function () {
         $rootScope.creditDone = true;
         $location.path('/home');
-    }
+    };
 
     function buildToggler(componentId) {
         return function () {
