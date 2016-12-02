@@ -43,6 +43,23 @@ app.config(['$routeProvider',
             templateUrl: 'partials/class/forum.html',
             controller: 'forumController'
         })
+          .when('/bankers', {
+              templateUrl: 'partials/bankers.html',
+              controller: 'bankerController'
+          })
+          .when('/lawyers', {
+              templateUrl: 'partials/lawyers.html',
+              controller: 'lawyerController'
+          })
+          .when('/realtors', {
+              templateUrl: 'partials/realtors.html',
+              controller: 'realtorController'
+          })
+          .when('/bankerContact/:id', {
+              templateUrl: 'partials/bankerContact.html',
+              controller: 'contactController',
+              controllerAs: 'ctrl'
+          })
 
         .otherwise({
             redirectTo: '/login'

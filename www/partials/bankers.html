@@ -1,0 +1,120 @@
+<md-toolbar class="md-hue-2">
+    <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
+            <md-icon md-svg-icon="images/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+            <span> LIST OF BANKERS </span>
+        </h2>
+    </div>
+</md-toolbar>
+<div layout="column" layout-align="center center">
+    <ul class="team-list">
+        <li class="inherit-height">
+
+            <div class="container-fluid inline-display">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <div class="container">
+                <h3>Banker 1</h3>
+                <div class="bs-glyphicons">
+                    <span class="bs-glyphicons-list">
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color half"></span>
+                    </span>
+                </div>
+                <p class="italic-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+                </div>
+                <md-button class="md-raised md-primary" ng-click="contact(1)">CONTACT</md-button>
+            </div>
+
+        </li>
+
+        <li class="inherit-height">
+            <div class="container-fluid inline-display">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <div class="container">
+                    <h3>Banker 2</h3>
+                    <div class="bs-glyphicons">
+                    <span class="bs-glyphicons-list">
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star-empty star-color"></span>
+                    </span>
+                    </div>
+                    <p class="italic-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+                </div>
+                <md-button class="md-raised md-primary" ng-click="contact(2)">CONTACT</md-button>
+            </div>
+        </li>
+
+        <li class="inherit-height">
+            <div class="container-fluid inline-display">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <div class="container">
+                    <h3>Banker 3</h3>
+                    <div class="bs-glyphicons">
+                    <span class="bs-glyphicons-list">
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color half"></span>
+                        <span class="glyphicon glyphicon-star-empty star-color"></span>
+                    </span>
+                    </div>
+                    <p class="italic-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+                </div>
+                <md-button class="md-raised md-primary" ng-click="contact(3)">CONTACT</md-button>
+            </div>
+        </li>
+
+        <li class="inherit-height">
+            <div class="container-fluid inline-display">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <div class="container">
+                    <h3>Banker 4</h3>
+                    <div class="bs-glyphicons">
+                    <span class="bs-glyphicons-list">
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                    </span>
+                    </div>
+                    <p class="italic-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+                </div>
+                <md-button class="md-raised md-primary" ng-click="contact(4)">CONTACT</md-button>
+            </div>
+        </li>
+
+        <li class="inherit-height">
+            <div class="container-fluid inline-display">
+                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                <div class="container">
+                    <h3>Banker 5</h3>
+                    <div class="bs-glyphicons">
+                    <span class="bs-glyphicons-list">
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star star-color"></span>
+                        <span class="glyphicon glyphicon-star-empty star-color"></span>
+                        <span class="glyphicon glyphicon-star-empty star-color"></span>
+                    </span>
+                    </div>
+                    <p class="italic-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante, ac laoreet nulla vestibulum adipiscing. Nam quis justo in augue auctor imperdiet.</p>
+                </div>
+                <md-button class="md-raised md-primary" ng-click="contact(5)">CONTACT</md-button>
+            </div>
+        </li>
+    </ul>
+    <div>
+        <md-button class="md-raised md-primary" ng-click="done()">
+            I AM DONE!!
+        </md-button>
+    </div>
+</div>
