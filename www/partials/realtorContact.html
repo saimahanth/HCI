@@ -4,7 +4,7 @@
             <md-icon md-svg-icon="images/menu.svg"></md-icon>
         </md-button>
         <h2>
-            <span> BANKER DETAILS </span>
+            <span> REALTOR DETAILS </span>
         </h2>
     </div>
 </md-toolbar>
@@ -12,7 +12,7 @@
 <div layout="column" layout-align="center center">
     <br/>
     <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-    <h1> BANKER {{bankerId}}</h1>
+    <h1> REALTOR {{realtorId}}</h1>
     <div class="container">
 
         <form class="well form-horizontal" action=" " method="post"  id="contact_form">
@@ -25,8 +25,9 @@
                     Reach out to us and we'll respond as soon as we can.</p> 
                 </div>
 
-
                 <!-- Text input-->
+
+
 
                 <div class="form-group">
                     <label class="col-md-4 control-label">First Name</label>
@@ -224,7 +225,7 @@
                 <div class="form-group">
                     <label class="col-md-5 control-label"></label>
                     <div class="col-md-4">
-                        <md-button class="md-raised md-primary col-md-4" ng-click="submit('banker')">
+                        <md-button class="md-raised md-primary col-md-4" ng-click="submit('realtor')">
                             Send <span class="glyphicon glyphicon-send"></span>
                         </md-button>
                     </div>

@@ -11,8 +11,16 @@ app.controller('contactController', function ($scope, $mdSidenav, $modal, $rootS
     }
     init();
 
-    $scope.submit = function () {
-        $rootScope.bankerDone = true;
+    $scope.submit = function (type) {
+        if (type == 'banker') {
+            $rootScope.bankerDone = true;
+        }
+        else if (type == 'lawyer') {
+            $rootScope.lawyerDone = true;
+        }
+        else if (type == 'realtor') {
+            $rootScope.realtorDone = true;
+        }
         $scope.message = " Thanks for contacting us, we will get back to you shortly.";
         //$location.path('/home');
     };

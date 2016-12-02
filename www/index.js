@@ -57,8 +57,15 @@ app.config(['$routeProvider',
           })
           .when('/bankerContact/:id', {
               templateUrl: 'partials/bankerContact.html',
-              controller: 'contactController',
-              controllerAs: 'ctrl'
+              controller: 'contactController'
+          })
+          .when('/lawyerContact/:id', {
+              templateUrl: 'partials/lawyerContact.html',
+              controller: 'contactController'
+          })
+          .when('/realtorContact/:id', {
+              templateUrl: 'partials/realtorContact.html',
+              controller: 'contactController'
           })
 
         .otherwise({

@@ -1,6 +1,11 @@
 ﻿@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
-*{margin:0; padding:0}
+
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     background:#FFFFFF; 
     font-family: 'Source Sans Pro', sans-serif;
@@ -148,43 +153,14 @@ ul li{
 @media(max-width:480px){ .form{width:100%}}
 
 .profile-img-card {
-    width:96px;
-    height:96px;
-    margin:0 auto 10px;
+    width:100px;
+    height:100px;
+    margin:0 10px;
     display:block;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     border-radius:50%;
 }
-/*
-img {
-    vertical-align:left;
-}*/
-
-/*
-li img {
-    float: left;
-    margin: 0 15px 0 0;
-}
-
-li p {
-    font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-li {
-    padding: 10px;
-    overflow: auto;
-}
-
-li:hover {
-    background: #eee;
-    cursor: pointer;
-}
-
-ul {
-    list-style-type: none;
-    width: 500px;
-}*/
 
 h3 {
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
@@ -202,7 +178,7 @@ h3 {
 .inherit-height {
     height: inherit;
     padding: 10px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 li.inherit-height:hover {
