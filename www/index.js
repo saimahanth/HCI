@@ -1,4 +1,4 @@
-﻿var app = angular.module("myApp", ['ngMaterial', 'ngRoute', 'ui.bootstrap']);
+﻿﻿var app = angular.module("myApp", ['ngMaterial', 'ngRoute', 'ui.bootstrap']);
 
 app.controller('appController', function ($scope, $mdSidenav, $rootScope) {
     $scope.closeSideNav = function () {
@@ -66,6 +66,14 @@ app.config(['$routeProvider',
           .when('/realtorContact/:id', {
               templateUrl: 'partials/realtorContact.html',
               controller: 'contactController'
+          })
+          .when('/connect', {
+              templateUrl: 'partials/connect_people.html',
+              controller: 'connectController'
+          })
+          .when('/document', {
+              templateUrl: 'partials/document.html',
+              controller: 'docController'
           })
 
         .otherwise({

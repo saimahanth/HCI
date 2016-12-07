@@ -1,5 +1,4 @@
-﻿@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+﻿
 
 *{
     margin:0;
@@ -233,4 +232,187 @@ li.inherit-height:hover {
     margin: 0 auto;
     margin-bottom: 5px;
     width: 80%;
+}
+
+.green-color {
+    color: green;
+}
+
+.red-color {
+    color: red;
+}
+
+.black-color {
+    color: black;
+}
+
+.white-color
+{
+    color:white;
+}
+
+.connect-button
+{
+    background: rgb(40,53,147);
+    color: rgba(255,255,255,0.87);
+}
+
+.request-button
+{
+    background: #FF85A1;
+
+}
+
+.button:disabled {
+    color:rgb(40,53,147);;
+}
+
+.listdemoBasicUsage md-divider {
+    margin-top: 10px;
+    margin-bottom: 0; }
+
+.tabsdemoDynamicHeight md-content {
+    background-color: transparent !important; }
+.tabsdemoDynamicHeight md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+    background: white; }
+.tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
+
+.fit
+{
+    max-width: 99%;
+    max-height:99%;
+}
+
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+    .fileinput-button input {
+        filter: alpha(opacity=0);
+        font-size: 100%;
+        height: 100%;
+    }
+}
+
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle {
+    margin-bottom: 5px;
+}
+.progress-animated .progress-bar,
+.progress-animated .bar {
+    background: url("../img/progressbar.gif") !important;
+    filter: none;
+}
+.fileupload-process {
+    float: right;
+    display: none;
+}
+.fileupload-processing .fileupload-process,
+.files .processing .preview {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/loading.gif") center no-repeat;
+    background-size: contain;
+}
+.files audio,
+.files video {
+    max-width: 300px;
+}
+
+@media (max-width: 767px) {
+    .fileupload-buttonbar .toggle,
+    .files .toggle,
+    .files .btn span {
+        display: none;
+    }
+    .files .name {
+        width: 80px;
+        word-wrap: break-word;
+    }
+    .files audio,
+    .files video {
+        max-width: 80px;
+    }
+    .files img,
+    .files canvas {
+        max-width: 100%;
+    }
+}
+
+
+.fileinput-button input {
+    position: static;
+    opacity: 1;
+    filter: none;
+    font-size: inherit !important;
+    direction: inherit;
+}
+.fileinput-button span {
+    display: none;
+}
+
+.upload_btn
+{
+    height:40px;
+    border:none;
+    background:rgb(40,53,147);
+    width:50%;
+    outline:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    border-bottom:rgb(40,53,147);
+    border-radius:3px;
+    cursor:pointer;
+
+}
+
+.preview_btn
+{
+    height:40px;
+    border:none;
+    background:#ff4081;
+    width:100%;
+    outline:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    border-bottom: #ff4081;
+    border-radius:3px;
+    cursor:pointer;
+
+}
+.upload_txt
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+}
+.preview
+{
+    max-width:100%;
+    max-height:100%;
 }
